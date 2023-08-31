@@ -1,6 +1,9 @@
-server:
-  port: 8081
 spring:
-  mongodb:
-    embedded:
-      version: 4.0.21
+  config:
+    activate:
+      on-profile: local
+  data:
+    mongodb:
+      uri: mongodb+srv://admin:password1516@cluster0.lqjujzh.mongodb.net/?retryWrites=true&w=majority
+      port: 27017
+      database: webflux_poc
