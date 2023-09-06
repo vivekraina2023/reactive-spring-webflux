@@ -8,7 +8,7 @@ public class MoviesInfoServiceApplication {
 
     public static void main(String[] args) {
 
-
+        // Enrty Point
         SpringApplication.run(MoviesInfoServiceApplication.class, args);
 
 
