@@ -1,2 +1,3 @@
 # reactive-spring-webflux
-Spring Webflux
+## 1. Command to Run the application
+###   sudo gradle bootRun  -Dspring.profiles.active=local
